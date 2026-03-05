@@ -282,7 +282,7 @@ fn update_mod(id: &str, download_link: &str, config: &mut Config) {
 
 fn set_index_url(url: String, config: &mut Config) {
 	if url == "default" {
-		config.index_url = "https://api.geode-sdk.org".to_string();
+		config.index_url = "https://api.noahh-sdk.org".to_string();
 	} else {
 		config.index_url = url;
 	}

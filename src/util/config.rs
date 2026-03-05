@@ -36,7 +36,7 @@ pub struct Config {
 }
 
 fn default_index_url() -> String {
-	"https://api.geode-sdk.org".to_string()
+	"https://api.noahh-sdk.org".to_string()
 }
 
 pub fn profile_platform_default() -> String {
@@ -200,7 +200,7 @@ impl Config {
 			sdk_version: None,
 			other: HashMap::<String, Value>::new(),
 			index_token: None,
-			index_url: "https://api.geode-sdk.org".to_string(),
+			index_url: "https://api.noahh-sdk.org".to_string(),
 		}
 	}
 
